@@ -59,7 +59,6 @@ ul {
   justify-content: space-between;
   align-items: center;
   z-index: 50;
-  background: rgba(0,0,0, 0.2);
 }
 
 .active-header-bg-854 {
@@ -657,6 +656,7 @@ a.card-menu.active-card:hover {
   .basket-white {
     display: block;
   }
+
   .line {
     stroke: rgb(255, 255, 255);
   }
@@ -675,6 +675,7 @@ a.card-menu.active-card:hover {
     border-bottom: 1px solid #000;
   }
 }
+
 @media screen and (max-width: 768px) {
   .wrapp__content {
     padding-left: 0;
@@ -682,7 +683,11 @@ a.card-menu.active-card:hover {
     padding-top: 0;
     padding-bottom: 0;
   }
+  .header {
+    background: rgba(0, 0, 0, 0.2);
+  }
 }
+
 @media screen and (max-width: 632px) {
   .card-content {
     width: 74.7%;
@@ -692,7 +697,6 @@ a.card-menu.active-card:hover {
 @media screen and (max-width: 445px) {
   .header {
     height: 61px;
-    background: rgba(0, 0, 0, 0.28);
   }
 
   /* .block-logo h1 {
