@@ -53,6 +53,7 @@
   width: auto;
   height: auto;
   display: flex;
+  margin-bottom: clamp(0.25rem, -0.0357rem + 0.4464vw, 0.5rem);
 }
 
 .width-icon-user {
@@ -400,6 +401,11 @@
   height: auto;
 }
 
+@media screen and (max-width: 1440px) {
+  .wrapper-basket-photos {
+    gap: 6px;
+  }
+}
 
 @media screen and (max-width: 1203px) {
   .block-help {
@@ -407,12 +413,14 @@
   }
 
 }
+
 @media screen and (max-width: 1024px) {
-    .wrapper-basket-photos {
-      gap: 5px;
-    }
-  
+  .wrapper-basket-photos {
+    gap: 5px;
+  }
+
 }
+
 @media screen and (max-width: 951px) {
   .description-ul {
     margin-bottom: 0;
@@ -530,6 +538,7 @@
   .item-basket-img {
     width: 100%;
   }
+
   .wrapper-basket-photos {
     gap: 2px;
   }

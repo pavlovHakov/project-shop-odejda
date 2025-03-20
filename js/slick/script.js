@@ -48,18 +48,14 @@ $(document).ready(function () {
   });
 });
 
-$(document).ready(function () {
-  $(".slider-home").slick({
-    arrows: false,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-
-    dots: true,
-    infinite: true,
-    speed: 500,
-    autoplay: true,
-    autoplaySpeed: 1000,
-
-  });
+$(".autoplay").slick({
+  arrows: false,
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 10000
 });
 

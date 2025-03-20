@@ -333,6 +333,7 @@ ul {
 }
 
 .wrapp__content {
+  /* margin-top: -15px; */
   padding-left: clamp(0rem, -0.9234rem + 3.0091vw, 2.6875rem);
   padding-right: clamp(0rem, -0.9234rem + 3.0091vw, 2.6875rem);
 }
@@ -345,7 +346,7 @@ ul {
 .block-menu {
   width: 100%;
   height: auto;
-  margin: clamp(1rem, 0.4492rem + 1.0319vw, 1.6875rem) auto clamp(4.5625rem, 3.7113rem + 1.5947vw, 5.625rem);
+  margin: clamp(1.25rem, -1.2554rem + 5.2129vw, 5rem) auto clamp(3.75rem, 2.2885rem + 3.0408vw, 5.9375rem);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -682,6 +683,9 @@ a.card-menu.active-card:hover {
     padding-right: 0;
     padding-top: 0;
     padding-bottom: 0;
+  }
+  .content{
+    margin-top: -5px;
   }
   .header {
     background: rgba(0, 0, 0, 0.2);
